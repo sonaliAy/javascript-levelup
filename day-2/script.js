@@ -89,14 +89,31 @@ else{
 }*/
 
 //ODD AND EVEN
-let num = 10;
+/*let num = 10;
 if(num%2===0){
     console.log(num,"is even");
 }
 else{
     console.log(num,"is odd");
-}
+}*/
 
+
+//3.ELSE-IF STATEMENT 
+let mode = "dark";
+let color;
+if(mode==="dark"){
+    color = "black";
+}
+else if(mode==="blue"){
+    color="blue";
+}
+else if(mode==="pink"){
+    color="pink";
+}
+else{
+    color="white";
+}
+console.log(color);
 
 
 
