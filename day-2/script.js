@@ -69,7 +69,7 @@ if(age<18){
 }*/
 
 //2.IF -ELSE STATEMENT
-let mode = "dark";
+/*let mode = "dark";
 let color;
 if(mode==="dark"){
     color="black";
@@ -77,7 +77,16 @@ if(mode==="dark"){
 else{
     color="white";
 }
-console.log(color);
+console.log(color);*/
+
+//EXAMPLE
+let age = 25;
+if (age>=18){
+    console.log("you can vote");
+}
+else{
+    console.log("you cannot vote");
+}
 
 
 
