@@ -49,7 +49,7 @@ console.log("!(6<5)=",(a<b));*/
 
 //CONDITIONAL STATEMENT
 //1.if statement
-let mode = "dark";
+/*let mode = "dark";
 let color;
 if(mode==="dark"){
     color="black";
@@ -57,7 +57,16 @@ if(mode==="dark"){
 if(mode==="light"){
     color="white";
 }
-console.log(color);
+console.log(color);*/
+
+//EXAMPLE
+let age = 25;
+if (age>=18){
+    console.log("you can vote");
+}
+if(age<18){
+    console.log("you cannot vote");
+}
 
 
 
