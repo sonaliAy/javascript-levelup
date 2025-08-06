@@ -116,9 +116,21 @@ else{
 console.log(color);*/
 
 //TERNARY OPERATOR
-let age = 25;
+/*let age = 25;
 let result = age>=18?"adult":"not adult";
-console.log(result);
+console.log(result);*/
 
+
+//LET'S PRACTICE
+//1.MULTIPLE 5 OR NOT
+
+let num = ("enter a number:");
+if(num % 5===0)
+{
+    console.log(num," is a multiple of 5");
+}
+else{
+    console.log(num,"is not a multiple of 5");
+}
 
 
