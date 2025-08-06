@@ -33,10 +33,19 @@ a **= 4;  //a=a**4
 console.log("a=",a);*/
 
 //COMPARISION OPERATOR
-let a = 5;
+/*let a = 5;
 let b = 2;
 console.log("5==2",a==b);
-console.log("5!=2",a!=b);
+console.log("5!=2",a!=b);*/
+
+//LOGICAL OPERATOR
+let a = 6;
+let b = 5;
+let cond1 = a>b;
+let cond2 = a===6;
+console.log("cond1 && cond2=",cond1 && cond2);
+console.log("cond1 || cond2=",a<b || a===6);
+console.log("!(6<5)=",(a<b));
 
 
 
