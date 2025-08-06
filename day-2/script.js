@@ -99,7 +99,7 @@ else{
 
 
 //3.ELSE-IF STATEMENT 
-let mode = "dark";
+/*let mode = "dark";
 let color;
 if(mode==="dark"){
     color = "black";
@@ -113,7 +113,12 @@ else if(mode==="pink"){
 else{
     color="white";
 }
-console.log(color);
+console.log(color);*/
+
+//TERNARY OPERATOR
+let age = 25;
+let result = age>=18?"adult":"not adult";
+console.log(result);
 
 
 
