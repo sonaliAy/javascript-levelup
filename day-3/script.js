@@ -12,8 +12,15 @@ console.log("sum=",sum);
 console.log("loop has end ");*/
 
 //WHILE LOOP
-let i =1;
+/*let i =1;
 while(i<=5){
     console.log("i=",i);
     i++;
-}
+}*/
+
+//DO-WHILE LOOP
+let i = 20;
+do{
+    console.log("hey everyone");
+    i++;
+}while(i<=10);
