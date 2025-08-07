@@ -48,7 +48,7 @@ for(let i of str){
 console.log("string size=",size);*/
 
 //FOR- IN LOOP
-let student ={
+/*let student ={
     name:"rahul kumar",
     age:20,
     cgpa:7.5,
@@ -56,4 +56,15 @@ let student ={
 };
 for(let i in student){
     console.log(i);
+}*/
+
+//EXAMPLE
+let student ={
+    name:"rahul kumar",
+    age:20,
+    cgpa:7.5,
+    ispass:true
+};
+for(let key in student){
+    console.log("key=",Key, "value=", student[key]);
 }
