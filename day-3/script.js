@@ -19,8 +19,15 @@ while(i<=5){
 }*/
 
 //DO-WHILE LOOP
-let i = 20;
+/*let i = 20;
 do{
     console.log("hey everyone");
     i++;
-}while(i<=10);
+}while(i<=10);*/
+
+//EXAMPLE
+let i = 1;
+do{
+    console.log("i=",i);
+    i++;
+}while(i<=5);
