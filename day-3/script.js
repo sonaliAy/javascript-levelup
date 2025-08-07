@@ -39,10 +39,21 @@ for(let i of str){
 }*/
 
 //EXAMPLE
-let str = "javascript";
+/*let str = "javascript";
 let size = 0;
 for(let i of str){
     console.log("i=",i);
     size++;
 }
-console.log("string size=",size);
+console.log("string size=",size);*/
+
+//FOR- IN LOOP
+let student ={
+    name:"rahul kumar",
+    age:20,
+    cgpa:7.5,
+    ispass:true
+};
+for(let i in student){
+    console.log(i);
+}
