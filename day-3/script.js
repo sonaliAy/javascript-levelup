@@ -71,9 +71,17 @@ for(let key in student){
 
 //LET'S PRACTICE
 //1.PRINT ALL EVEN NUMBER FROM 1 TO 100
-for(let num=0;num<=100;num++){
+/*for(let num=0;num<=100;num++){
     if(num%2===0){
         //even number
         console.log("num=",num);
     }
+}*/
+
+//QUESTION 2
+let gamenum = 25;
+let usernum = prompt("guess the game number:");
+while(usernum !==gamenum){
+    usernum = prompt("you entered wrong number.guess again:");
 }
+console.log("congratulations,you entered the right number");
