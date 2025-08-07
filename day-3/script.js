@@ -26,8 +26,14 @@ do{
 }while(i<=10);*/
 
 //EXAMPLE
-let i = 1;
+/*let i = 1;
 do{
     console.log("i=",i);
     i++;
-}while(i<=5);
+}while(i<=5);*/
+
+//FOR-OF LOOP
+let str = "hey everyone";
+for(let i of str){
+    console.log("i=",i);
+}
