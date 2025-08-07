@@ -59,7 +59,7 @@ for(let i in student){
 }*/
 
 //EXAMPLE
-let student ={
+/*let student ={
     name:"rahul kumar",
     age:20,
     cgpa:7.5,
@@ -67,4 +67,13 @@ let student ={
 };
 for(let key in student){
     console.log("key=",Key, "value=", student[key]);
+}*/
+
+//LET'S PRACTICE
+//1.PRINT ALL EVEN NUMBER FROM 1 TO 100
+for(let num=0;num<=100;num++){
+    if(num%2===0){
+        //even number
+        console.log("num=",num);
+    }
 }
