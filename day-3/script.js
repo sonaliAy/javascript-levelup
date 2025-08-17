@@ -98,4 +98,7 @@ str.length*/
 console.log("the cost of",obj.item,"is",obj.price);*/
 
 //template literals
-console.log("apna college");
+//console.log("apna college");
+
+let str = "apna\tcollege";
+console.log(str.length);
