@@ -91,8 +91,11 @@ console.log("congratulations,you entered the right number");*/
 console.log(str);
 str.length*/
 
-let obj = {
+/*let obj = {
     item:"pen",
     price:10,
 };
-console.log("the cost of",obj.item,"is",obj.price);
+console.log("the cost of",obj.item,"is",obj.price);*/
+
+//template literals
+console.log("apna college");
