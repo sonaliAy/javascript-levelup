@@ -79,9 +79,20 @@ for(let key in student){
 }*/
 
 //QUESTION 2
-let gamenum = 25;
+/*let gamenum = 25;
 let usernum = prompt("guess the game number:");
 while(usernum !==gamenum){
     usernum = prompt("you entered wrong number.guess again:");
 }
-console.log("congratulations,you entered the right number");
+console.log("congratulations,you entered the right number");*/
+
+//strings
+/*let str = "hello";
+console.log(str);
+str.length*/
+
+let obj = {
+    item:"pen",
+    price:10,
+};
+console.log("the cost of",obj.item,"is",obj.price);
