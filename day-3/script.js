@@ -111,6 +111,10 @@ console.log(str);
 console.log(newstr);*/
 
 //lowercase
-let str = "ApnaCollege";
+/*let str = "ApnaCollege";
 str = str.toLowerCase();
-console.log(str);
+console.log(str);*/
+
+//trimcase
+let str = "hello  my name is    ";
+console.log(str.trim());
