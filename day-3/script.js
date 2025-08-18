@@ -105,7 +105,12 @@ console.log(str.length);*/
 
 //string method in js
 //uppercase
-let str = "apnacollege";
+/*let str = "apnacollege";
 let newstr = str.toUpperCase();
 console.log(str);
-console.log(newstr);
+console.log(newstr);*/
+
+//lowercase
+let str = "ApnaCollege";
+str = str.toLowerCase();
+console.log(str);
