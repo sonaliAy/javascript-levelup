@@ -100,5 +100,12 @@ console.log("the cost of",obj.item,"is",obj.price);*/
 //template literals
 //console.log("apna college");
 
-let str = "apna\tcollege";
-console.log(str.length);
+/*let str = "apna\tthird";
+console.log(str.length);*/
+
+//string method in js
+//uppercase
+let str = "apnacollege";
+let newstr = str.toUpperCase();
+console.log(str);
+console.log(newstr);
