@@ -28,6 +28,7 @@ console.log (marks[1]);*/
 
         let cities = ["delhi","lucknow","gorakhpur","pune","bihar"];
         for(let city of cities){
-            console.log(city);
+           // console.log(city);
+           console.log(city.toUpperCase());
         }
     
