@@ -16,13 +16,18 @@ console.log (marks[1]);*/
 
 //LOOPING OVER AN ARRAY 
 //FOR LOOP
-let heroes = ["spiderman","ironman","hulk","shaktiman","doremon"];
+//let heroes = ["spiderman","ironman","hulk","shaktiman","doremon"];
    /* for(let idx=0;idx<heroes.length;idx++){
         console.log(heroes[idx]);
     }*/
 
     //for of 
-    for(let hero of heroes){
+    /*for(let hero of heroes){
         console.log(hero);
-    }
+    }*/
+
+        let cities = ["delhi","lucknow","gorakhpur","pune","bihar"];
+        for(let city of cities){
+            console.log(city);
+        }
     
