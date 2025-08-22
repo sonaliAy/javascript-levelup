@@ -10,6 +10,13 @@ console.log(heroes.length);
 typeof heroes;*/
 
 //ARRAY INDICES
-let marks = [90,23,45,67,78,98];
+/*let marks = [90,23,45,67,78,98];
 console.log(marks);
-console.log (marks[1]);
+console.log (marks[1]);*/
+
+//LOOPING OVER AN ARRAY 
+//FOR LOOP
+let heroes = ["spiderman","ironman","hulk","shaktiman","doremon"];
+    for(let idx=0;idx<heroes.length;idx++){
+        console.log(heroes[idx]);
+    }
