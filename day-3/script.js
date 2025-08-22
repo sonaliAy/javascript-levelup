@@ -120,5 +120,5 @@ console.log(str);*/
 console.log(str.trim());*/
 
 //slicecase
-let str = "01234567";
-console.log(str.slice(1,3));
+/*let str = "01234567";
+console.log(str.slice(1,3));*/
