@@ -67,5 +67,20 @@ console.log (marks[1]);*/
             // console.log(items);
 
             //ARRAYS IN JS  
-            
-            
+            //LOOPING OVER ARRAYS
+            // let heroes = ["ironman","hulk","shaktiman","antman"];
+            //USING A FOR LOOP
+            // for(let idx=0;idx<heroes.length;idx++)
+            // {
+            //     console.log(heroes[idx]);
+            // }
+            //FOR OF LOOP
+            // for(let hero of heroes){
+            //     console.log(hero);
+            // }
+            //EXAMPLE
+            let cities = ["delhi","pune","gkp","mumbai"];
+            for(let city of cities){
+                // console.log(city);
+                console.log(city.toUpperCase());
+            }
