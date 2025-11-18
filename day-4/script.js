@@ -79,8 +79,17 @@ console.log (marks[1]);*/
             //     console.log(hero);
             // }
             //EXAMPLE
-            let cities = ["delhi","pune","gkp","mumbai"];
-            for(let city of cities){
-                // console.log(city);
-                console.log(city.toUpperCase());
-            }
+            // let cities = ["delhi","pune","gkp","mumbai"];
+            // for(let city of cities){
+            //     // console.log(city);
+            //     console.log(city.toUpperCase());
+            // }
+
+            //PRACTICE QUESTION
+             let marks = [85,97,44,37,76,60];
+             let sum=0;
+             for(let val of marks){
+                sum+=val;
+             }
+             let avg = sum/marks.length;
+             console.log(`avg marks of the class = ${avg}`);
