@@ -29,20 +29,53 @@
 // console.log(val);
 
 //sum function
-function sum(a,b){
-    return a+b;
-}
-const arrowsum =(a,b)=>{
-    console.log(a+b);
-}
+// function sum(a,b){
+//     return a+b;
+// }
+// const arrowsum =(a,b)=>{
+//     console.log(a+b);
+// }
 
 
-//multiplication
-function mul(a,b){
-    return a*b;
-}
+// //multiplication
+// function mul(a,b){
+//     return a*b;
+// }
+// let arrowmul= (a,b)=>{
+//     return a*b;
+// };
+
+//LETS PRACTICE
+//1. VOWEL STRING
 
 
-arrowsum(a,b) =>{
-    console.log(a=b);
-}
+// function countvowels(str){
+//     for(const char of str){
+//         console.log(char);
+//     }
+// }
+//  countvowels("sonali");
+
+// function countvowels(str){
+//     let count = 0;
+//     for(const char of str){
+//         if(char==="a"||char==="e"||char==="i"||char==="o"||char==="u"){
+//             count++;
+//         }
+//     }
+//     console.log(count);
+// }
+// countvowels("apna college");
+
+//2.CREATE AN ARROW FUNCTION TO PERFORM THE SAME TASK
+// const countvow = (str) => {
+//     let count = 0;
+//     for(const char of str){
+//         if(char==="a"||char==="e"||char==="i"||char==="o"||char==="u"){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// countvow("hellocoderarmy");
+
